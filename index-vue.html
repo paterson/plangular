@@ -20,14 +20,18 @@
 <main id="plangular-app" class="py-responsive">
 
 
-  <section v-plangular="url: http://soundcloud.com/mrsjxn/bbb"  class="measure wrap mb4">
+  <section v-plangular="url: 'http://soundcloud.com/mrsjxn/bbb'" class="measure wrap mb4">
     <h1>Vuejs Plangular</h1>
+    {{response}} |
+    {{data}} |
+    {{test}}
+
   </section>
 
 </main>
 
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="vuejs/corslite.js"></script>
   <script src="vuejs/vue.js"></script>
   <script src="vue-plangular.js"></script>
 
